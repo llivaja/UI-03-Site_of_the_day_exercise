@@ -1,0 +1,310 @@
+@font-face {
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://ark.cregital.com/assets/fonts/Graphik-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Graphik";
+    font-style: normal;
+    font-weight: 600;
+    src: url("https://ark.cregital.com/assets/fonts/Graphik-Semibold.ttf") format("truetype");
+}
+html,
+body{
+    background-color: #fff;
+    color: #2d2d2d;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",
+    Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji",
+    "Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0; 
+}
+
+::selection{
+    background-color:rgba(0, 186, 186, 0.1);
+    color: #00baba;  
+}
+
+h1, h3{
+    font-family: Graphik, sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #00baba;
+}
+
+button{
+    border:none;
+    background-color: #00baba;
+    color: #fff;
+    cursor: pointer;
+    font-family: Graphik, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8.5px 1.5rem;
+    letter-spacing: .2px;
+    height: 39px;
+}
+
+button:focus {
+    outline: none;
+}
+
+label{
+    cursor: text;
+    font-size: 1.5rem;
+}
+
+input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(0, 186, 186);
+    box-sizing: border-box;
+    color: rgb(0, 186, 186);
+    cursor: pointer;
+    font-family: Graphik, sans-serif;
+    font-size: 1.5rem;
+    line-height: 42px;
+    padding: 0 7px;
+    text-align: center;
+}
+
+input::placeholder {
+    color: rgb(0, 186, 186);
+}
+
+input:focus,
+input:hover {
+    outline: none;
+    background-color: rgba(0, 186, 186, 0.1);
+    transition: 0.4s;
+}
+
+.inner_wrapper{
+    margin: 0 auto;
+    max-width: 1260px;
+}
+
+/*  HEADER  */
+
+header{
+    background-color: rgb(232, 248, 248);
+}
+
+.fixed_scroll{
+    background-color: inherit;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#header_navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+#logo{
+    height: 50px;
+}
+
+#header_button_container{
+    display: flex;
+    align-items: center;
+}
+
+#moon_icon{
+    height: 20px;
+    margin-right: 60px;
+}
+
+#join_us{
+    font-size: .8rem;
+    height: 89px;
+    margin-left: 8px;
+}
+
+#header_background{
+    padding-top: 140px; 
+    max-width: 100%;
+}
+
+/*  /HEADER  */
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+/* SECTION1 */
+
+#section1{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+    max-width: 800px;
+}
+
+#section1 p{
+    display: flex;
+    justify-content: center;
+}
+
+#section1_text{
+    margin-bottom: 1.5rem;
+}
+
+#section1_share{
+    margin-bottom: 1rem;
+}
+
+#section1_share_text{
+    font-family: Graphik, sans-serif;
+    font-weight: 600;
+    margin-right: 1rem;
+    margin-bottom: .25rem;
+}
+
+.section1_icons{
+    background-color: rgb(232, 248, 248);
+    height: 33px;
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 33px;
+}
+
+/* /SECTION1 */
+
+.section_columns{
+    display:flex;
+    align-items: center;
+    margin-bottom: 3rem;
+    padding: 3rem 0;
+}
+
+.section_img{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* SECTION2 */
+
+#section2_text{
+    padding-left: 11%;
+    padding-right: 15px;
+}
+
+/* /SECTION2 */
+
+/* SECTION3 */
+
+#section3_background{
+    background: url("./contacts.png");
+    background-repeat: no-repeat;
+    background-position: center -30%;
+    padding: 3rem 1.5rem;
+    margin-bottom: 3rem;
+}
+
+#section3{
+    text-align: center;
+    max-width: 650px;
+}
+
+#section3_text{
+    margin-bottom: 1.5rem;
+}
+
+#section3_input{
+    width: 280px;
+    padding-bottom: 3px;
+}
+
+#disclaimer{
+    font-size: .7rem;
+    line-height: 42px;
+    margin-bottom: 1.5rem;
+}
+
+/* /SECTION3 */
+
+/* SECTION4 */
+
+#section4_background{
+    margin-bottom: 3rem;
+}
+
+#section4_text{
+    padding-left: 15px;
+    padding-right: 11%;
+    text-align: right;
+}
+
+/* /SECTION4 */
+
+/* SECTION5 */
+
+#section5_background{
+    background-color: rgb(232, 248, 248);
+}
+
+#section5{
+    text-align: center;
+    padding: 0 30px;
+    margin: 4.5rem 0;
+}
+
+#section5_form{
+    padding: 0 15rem;
+}
+
+#section5_form_text{
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+#section5_input_name{
+    width: 160px;
+}
+
+#section5_input_email{
+    width: 200px;
+}
+
+#section5_input_phone{
+    width: 200px;
+}
+
+/* /SECTION5 */
+
+footer{
+    padding: 48px 0;
+    width: 100%;
+    font-size: .7rem;
+    line-height: 13px;
+}
+
+#flex_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
